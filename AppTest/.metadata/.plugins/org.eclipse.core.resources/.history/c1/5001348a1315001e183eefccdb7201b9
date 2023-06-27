@@ -1,0 +1,14 @@
+package telefoni;
+
+public class Main {
+    public static void main(String[] args) {
+        SIM sim = new SIM(1234567890);
+        sim.effettuaChiamata(new Chiamata(987654321, 10));
+        sim.effettuaChiamata(new Chiamata(456123789, 5));
+        sim.effettuaChiamata(new Chiamata(321987654, 15));
+        sim.effettuaChiamata(new Chiamata(654321987, 20));
+        sim.effettuaChiamata(new Chiamata(789456123, 8));
+        sim.stampaDatiSim();
+    }
+}
+

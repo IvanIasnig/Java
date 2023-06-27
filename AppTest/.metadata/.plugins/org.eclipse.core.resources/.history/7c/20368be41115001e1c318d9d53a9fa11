@@ -1,0 +1,13 @@
+package telefoni;
+
+public class Cellulare{
+
+    private int numero;
+    private double credito;
+
+    public Cellulare(double credito, int numero) {
+        this.numero = numero;
+        this.credito = credito;
+    }
+
+}

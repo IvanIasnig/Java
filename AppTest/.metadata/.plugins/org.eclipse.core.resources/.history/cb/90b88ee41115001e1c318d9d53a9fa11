@@ -1,0 +1,30 @@
+package telefoni;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Cellulare{
+
+    private int numero;
+    private double credito;
+    private List<Integer> registroChiamate;
+
+    public Cellulare(double credito, int numero) {
+        this.numero = numero;
+        this.credito = credito;
+        this.registroChiamate = new ArrayList<>();
+    }
+
+    public void effettuaChiamata(int numeroChiamato){
+        if(this.registroChiamate.size() >= 5){
+
+            this.registroChiamate.remove(0);
+        }
+        this.registroChiamate.add(numeroChiamato);
+    }
+
+    public List<Integer> getRegistroChiamate() {
+        return this.registroChiamate;
+    }
+}
+

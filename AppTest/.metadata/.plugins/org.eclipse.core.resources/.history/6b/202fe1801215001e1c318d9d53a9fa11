@@ -1,0 +1,19 @@
+package telefoni;
+
+public class Chiamata {
+    private int numeroChiamato;
+    private int durata; // durata in minuti
+
+    public Chiamata(int numeroChiamato, int durata) {
+        this.numeroChiamato = numeroChiamato;
+        this.durata = durata;
+    }
+
+    public int getNumeroChiamato() {
+        return numeroChiamato;
+    }
+
+    public int getDurata() {
+        return durata;
+    }
+}

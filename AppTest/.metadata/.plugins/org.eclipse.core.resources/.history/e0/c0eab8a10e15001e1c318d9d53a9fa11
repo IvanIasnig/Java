@@ -1,0 +1,15 @@
+package telefoni;
+
+public class Cellulare{
+
+    private int numero;
+    private double credito;
+
+    public Rettangolo(double credito, int numero) {
+        this.numero = numero;
+        this.credito = credito;
+    }
+
+}
+
+}
