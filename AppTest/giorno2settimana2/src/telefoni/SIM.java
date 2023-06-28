@@ -11,7 +11,7 @@ public class SIM {
 
     public SIM(int numero) {
         this.numero = numero;
-        this.credito = 0;
+        this.credito = 10;
         this.registroChiamate = new ArrayList<>();
     }
 
@@ -31,4 +31,3 @@ public class SIM {
         }
     }
 }
-
