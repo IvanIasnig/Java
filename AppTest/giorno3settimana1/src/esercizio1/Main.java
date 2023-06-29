@@ -3,9 +3,9 @@ package esercizio1;
 public class Main {
     public static void main(String[] args) {
         String testString = "Ciao come va?";
-        System.out.println("La stringa '" + testString + "' ha un numero di caratteri " + (stringaPariDispari(testString) ? "pari" : "dispari") + ".");
+        System.out.println("La stringa '" + testString + "' ha un numero di caratteri " + (stringaPariDispari(testString) ? "pari" : "dispari"));
 
-        int testAnno = 2023;
+        int testAnno = 2024;
         System.out.println("L'anno " + testAnno + " è " + (annoBisestile(testAnno) ? "" : "non ") + "bisestile.");
     }
 
