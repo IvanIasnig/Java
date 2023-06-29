@@ -4,7 +4,7 @@ public class Dipendente {
     public enum Livello {OPERAIO, IMPIEGATO, QUADRO, DIRIGENTE}
     public enum Dipartimento {PRODUZIONE, AMMINISTRAZIONE, VENDITE}
 
-    private static final double stipendioBase = 1000;
+    static final double stipendioBase = 1000;
     private String matricola;
     private double stipendio;
     private double importoOrarioStraordinario;
